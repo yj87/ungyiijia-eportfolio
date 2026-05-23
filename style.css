@@ -10,7 +10,15 @@ body {
     color: #1a1a1a;
     line-height: 1.5;
 }
-        
+
+a:link{
+    color: black;
+}
+
+a:active{
+    color: pink;
+}
+
 img {
     width: 50%;
     height: 50%;
@@ -85,6 +93,11 @@ img {
     transition: background 0.2s;
     border: none;
     cursor: pointer;        
+}
+
+
+.btn-dark:link {
+    color: white;      
 }
 
 .btn-dark:hover {
@@ -319,13 +332,13 @@ background-position: center center;
 
 /* different colors for each project image to make it fun */
 .img-bg-1 {
-background-image: url(img/parkmate.jpg);
+background-image: url(img/parkmate.webp);
 }
 .img-bg-2 {
-background-image: url(img/autotreats.jpg);
+background-image: url(img/autotreats.webp);
 }
 .img-bg-3 {
-background-image: url(img/mhuat.jpg);
+background-image: url(img/mhuat.webp);
 }
 
 .project-info {
