@@ -77,8 +77,8 @@ img {
 
 .nav-menu a {
     text-decoration: none;
-    color: #333;
-    font-weight: 500;
+    color: #3d2e1f;
+    font-weight: 600;
     padding: 8px 0;
 }
 
@@ -158,14 +158,14 @@ text-align: center;
 }
 
 .badge {
-background-color: #fffaf0;
-color: #ca9a63 ;
+background-color: #e8d9c5;
+color: #5a3a1f ;
 font-size: 0.8rem;
 padding: 4px 14px;
 border-radius: 30px;
 display: inline-block;
 margin-bottom: 20px;
-font-weight: 600;
+font-weight: 700;
 }
 
 .hero-title {
@@ -177,7 +177,7 @@ margin-bottom: 18px;
 
 .hero-description {
 font-size: 1.05rem;
-color: #555;
+color: #3d2e1f;
 margin-bottom: 28px;
 max-width: 90%;
 }
@@ -208,7 +208,7 @@ margin-bottom: 8px;
 }
 
 .info-card p {
-color: #666;
+color: #3d2e1f;
 margin-bottom: 16px;
 }
 
@@ -280,7 +280,7 @@ object-fit: cover;
 .card-number {
 font-size: 2rem;
 font-weight: bold;
-color: #ca9a63 ;
+color: #8b5a2b ;
 display: block;
 margin-bottom: 12px;
 }
@@ -288,10 +288,12 @@ margin-bottom: 12px;
 .skill-card h3 {
 font-size: 1.4rem;
 margin-bottom: 12px;
+color: #3b2a1a;
 }
 
 .skill-card p {
-color: #555;
+color: #3d2e1f;
+font-weight: 500;
 line-height: 1.5;
 }
 
@@ -358,8 +360,8 @@ padding: 22px;
 }
 
 .project-tag {
-background-color: #fffaf0;
-color: #ca9a63 ;
+background-color: #e8d9c5;
+color: #5a3a1f ;
 font-size: 0.7rem;
 padding: 4px 12px;
 border-radius: 30px;
@@ -374,7 +376,7 @@ margin-bottom: 10px;
 }
 
 .project-description {
-color: #555;
+color: #3d2e1f;
 margin-bottom: 16px;
 font-size: 0.9rem;
 }
@@ -467,7 +469,7 @@ gap: 20px;
 }
 
 .footer-copyright {
-color: #876d49;
+color: #5a3e22;
 font-size: 0.85rem;
 }
 
@@ -556,7 +558,7 @@ flex-direction: column;
 
 .about-description {
     font-size: 1.05rem;
-    color: #444;
+    color: #2c2418;
     line-height: 1.7;
 }
 
@@ -571,7 +573,7 @@ flex-direction: column;
     border-radius: 24px;
     border-left: 5px solid #ca9a63 ;
     line-height: 1.7;
-    color: #444;
+    color: #2c2418;
 }
 
 /* Education Section - Fixed Contrast */
@@ -644,7 +646,7 @@ flex-direction: column;
 
 .skill-category li {
     padding: 6px 0;
-    color: #555;
+    color: #3d2e1f;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -688,7 +690,7 @@ flex-direction: column;
 }
 
 .cert-card p {
-    color: #666;
+    color: #3d2e1f;
     font-size: 0.9rem;
     margin-bottom: 10px;
 }
@@ -755,7 +757,7 @@ flex-direction: column;
 .projects-hero-description {
     max-width: 700px;
     margin: 0 auto;
-    color: #555;
+    color: #3d2e1f;
     font-size: 1.05rem;
 }
 
@@ -795,7 +797,7 @@ flex-direction: column;
 }
 
 .project-full-description {
-    color: #555;
+    color: #3d2e1f;
     margin: 15px 0;
     line-height: 1.6;
 }
@@ -935,7 +937,7 @@ flex-direction: column;
 
 .hometown-card p {
     padding: 0 15px 20px;
-    color: #555;
+    color: #3d2e1f;
     font-size: 0.9rem;
 }
 
@@ -960,7 +962,7 @@ flex-direction: column;
 }
 
 .hobby-text p {
-    color: #444;
+    color: #3d2e1f;
     line-height: 1.6;
 }
 
@@ -1010,7 +1012,7 @@ padding: 20px 0;
 
 .contact-form-intro {
 text-align: center;
-color: #666;
+color: #3d2e1f;
 margin-bottom: 30px;
 font-size: 1rem;
 }
