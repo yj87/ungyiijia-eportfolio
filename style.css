@@ -330,7 +330,6 @@ background-size: contain;
 background-position: center center;
 }
 
-/* different colors for each project image to make it fun */
 .img-bg-1 {
 background-image: url(img/parkmate.webp);
 }
@@ -401,7 +400,6 @@ color: #0066cc;
 color: #444;
 }
 
-/* ----- CONTACT BANNER (flexbox row) ----- */
 .contact-banner {
 background-color: #f4f6f9;
 border-radius: 28px;
@@ -440,7 +438,6 @@ transition: background 0.2s;
 background-color: #2c2c2c;
 }
 
-/* ----- FOOTER (flexbox) ----- */
 .main-footer {
 background-color: #fafafa;
 border-top: 1px solid #eaeaea;
@@ -481,7 +478,6 @@ height: 30px;
 width: auto;
 }
 
-/* simple responsive */
 @media (max-width: 700px) {
 .hero-title {
 font-size: 1.9rem;
@@ -564,7 +560,7 @@ flex-direction: column;
     color: #444;
 }
 
-/* Education Section */
+/* Education Section - Fixed Contrast */
 .education-card {
     display: flex;
     gap: 30px;
@@ -587,22 +583,35 @@ flex-direction: column;
 .edu-details h3 {
     font-size: 1.3rem;
     margin-bottom: 8px;
+    color: #1a1a1a;  /* Dark heading */
 }
 
 .edu-institution {
     font-weight: 600;
-    color: #0066cc;
+    color: #004499;  /* Darker blue for contrast */
     margin-bottom: 5px;
 }
 
+.edu-institution a {
+    color: #004499;
+    text-decoration: none;
+}
+
+.edu-institution a:hover {
+    text-decoration: underline;
+    color: #0066cc;
+}
+
 .edu-year {
-    color: #888;
-    font-size: 0.85rem;
+    color: #0066cc;  /* Fixed: was #888 (low contrast) */
+    font-size: 0.9rem;
+    font-weight: 600;  /* Added weight */
     margin-bottom: 12px;
 }
 
 .edu-description {
-    color: #555;
+    color: #333;  /* Fixed: was #555 */
+    line-height: 1.6;
 }
 
 /* Skills Grid */
