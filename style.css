@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Times New Roman', Georgia, garamond;
-    background-color: #f9f2e0;
+    background-color: #faf9f7;
+    background-image: url(img/bg1.webp);
     color: #2c2418; 
     line-height: 1.5;
 }
@@ -542,7 +543,7 @@ flex-direction: column;
 .education-card {
     display: flex;
     gap: 30px;
-    background-color: #fffcf2;
+    background-color: white;
     border: 1px solid #e2d1b0;
     border-radius: 24px;
     padding: 28px;
@@ -585,7 +586,7 @@ flex-direction: column;
 }
 
 .skill-category {
-    background-color: #f8f8f8;
+    background-color: white;
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #e2d1b0;
@@ -762,10 +763,11 @@ flex-direction: column;
 }
 
 .tool-item {
-    background-color: #fffaf0;
+    background-color: white;
     padding: 10px 20px;
     border-radius: 40px;
     font-weight: 500;
+    border: 1px solid #e2d1b0;
     transition: all 0.2s;
 }
 
@@ -877,7 +879,8 @@ flex-direction: column;
     flex-wrap: wrap;
     gap: 40px;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: white;
+    border: 1px solid #e2d1b0;
     border-radius: 24px;
     padding: 30px;
 }
@@ -938,7 +941,7 @@ font-size: 1rem;
 .contact-form {
 max-width: 700px;
 margin: 0 auto;
-background-color: #f9f9f9;
+background-color: white;
 padding: 35px;
 border-radius: 24px;
 border: 1px solid #e2d1b0;
@@ -968,7 +971,7 @@ border-radius: 12px;
 font-size: 1rem;
 font-family: inherit;
 transition: border-color 0.2s;
-background-color: #fffaf0;
+background-color: white;
 }
 
 .form-group input:focus,
