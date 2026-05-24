@@ -10,14 +10,15 @@ body {
     background-image: url(img/bg1.webp);
     color: #2c2418; 
     line-height: 1.5;
+    cursor: url(img/default.webp) 0 0, auto;
 }
 
-a:link{
+a, button, .btn-dark, .btn-outline, .nav-menu a, .project-links a, input[type="submit"], .btn-submit {
+    cursor: url("img/pointer.webp") 0 0, pointer;
+}
+
+a:link, a:visited{
     color: #7b4a2a;
-}
-
-a:visited{
-    color: black;
 }
 
 a:hover {
@@ -39,6 +40,10 @@ img {
 
 .main-header {
     background-color: #faf1df;
+    background-image: url(img/headercat2.webp);
+    background-position-x: center;
+    background-position-y: -14px;
+    background-repeat: no-repeat;
     border-bottom: 1px solid #ddceaa;
     padding: 16px 0;
     position: sticky;
@@ -53,7 +58,7 @@ img {
     align-items: center;
     flex-wrap: wrap;
     gap: 15px;
-    background-color: #faf1df;
+    background-color: transparent;
 }
 
 .logo {
@@ -98,8 +103,7 @@ img {
     font-weight: bold;
     display: inline-block;
     transition: background 0.2s;
-    border: none;
-    cursor: pointer;        
+    border: none;       
 }
 
 .btn-dark:link {
@@ -185,7 +189,7 @@ flex-wrap: wrap;
 gap: 15px;
 }
 
-.skill-card:hover, .project-card:hover, .education-card:hover, .cert-card:hover, .project-full-card:hover {
+.skill-card:hover, .project-card:hover, .education-card:hover, .cert-card:hover, .project-full-card:hover, .skill-category:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     border-color: #ddceaa;
@@ -197,6 +201,7 @@ border-radius: 24px;
 padding: 30px 20px;
 border: 1px solid #eaeaea;
 text-align: center;
+border: 1px solid #e2d1b0;
 }
 
 .emoji-avatar {
@@ -232,8 +237,8 @@ font-weight: bold;
 
 
 .divider {
-height: 1px;
-background-color: #e0e0e0;
+height: 1.5px;
+background-color: #e8d9c5;
 margin: 45px 0;
 }
 
@@ -387,14 +392,6 @@ font-weight: 600;
 font-size: 0.85rem;
 }
 
-.link-live {
-color: #ca9a63 ;
-}
-
-.link-code {
-color: #444;
-}
-
 .contact-banner {
 background-color: white;
 border-radius: 28px;
@@ -535,7 +532,10 @@ flex-direction: column;
     background-color: #f9f9f9;
     padding: 30px;
     border-radius: 24px;
-    border-left: 5px solid #ca9a63 ;
+    border-left: 5px solid #ca9a63;
+    border-right: 1px solid #e2d1b0;
+    border-bottom: 1px solid #e2d1b0;
+    border-top: 1px solid #e2d1b0;
     line-height: 1.7;
     color: #2c2418;
 }
@@ -590,6 +590,7 @@ flex-direction: column;
     padding: 20px;
     border-radius: 20px;
     border: 1px solid #e2d1b0;
+    transition: transform 0.2s;
 }
 
 .skill-category h3 {
@@ -997,7 +998,6 @@ border: none;
 border-radius: 50px;
 font-size: 1rem;
 font-weight: 600;
-cursor: pointer;
 transition: background-color 0.2s;
 width: 100%;
 }
