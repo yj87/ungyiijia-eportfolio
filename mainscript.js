@@ -4,7 +4,7 @@ function formValidator() {
     if (isAlphabet(fname, "Please enter only letters for your name")) {
         if (phoneValidator()) {
             if (emailValidator()) {
-                return true;
+                window.open("https://mail.google.com/mail/?view=cm&to=ungyiijia@graduate.utm.my", "_self");
             }
         }
     }
